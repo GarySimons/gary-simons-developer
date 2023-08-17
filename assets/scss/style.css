@@ -1,27 +1,71 @@
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+/*
+Add accessible line-height
+Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+#background {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 90vw;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+#static-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: darkmagenta;
+  height: 10rem;
+  width: 100%;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+#scroll-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: darkblue;
+  height: 10rem;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
