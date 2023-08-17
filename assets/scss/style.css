@@ -56,16 +56,39 @@ p, h1, h2, h3, h4, h5, h6 {
   justify-content: flex-start;
   align-items: flex-start;
   background-color: darkmagenta;
-  height: 10rem;
+  height: 80vh;
   width: 100%;
+  flex: 1;
 }
 
 #scroll-container {
+  background-color: darkblue;
+  height: 80vh;
+  width: 100%;
+  flex: 1;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+#nav-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  background-color: darkblue;
-  height: 10rem;
+}
+
+#one {
   width: 100%;
+  height: 30rem;
+  background-color: yellow;
+}
+
+#two {
+  width: 100%;
+  height: 30rem;
+  background-color: pink;
+}
+
+#three {
+  width: 100%;
+  height: 30rem;
+  background-color: cyan;
 }/*# sourceMappingURL=style.css.map */
