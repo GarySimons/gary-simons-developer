@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/scss/style.css" type="text/css"/>
-    <script defer type="text/javascript" src="assets/js/app.js"></script>
-    <title>gary simons | developer</title>
-</head>
-<body>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/scss/style.css" type="text/css" />
+  <script defer type="text/javascript" src="assets/js/app.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>gary simons | developer</title>
+</head>
+
+<body>
   <div id="background">
     <div id="main-container">
       <div id="static-container">
-        <nav id="nav-container">
-          <a href="#one">One</a>
-          <a href="#two">Two</a>
-          <a href="#three">Three</a>
-
-        </nav>
+        <h1 id="header">Gary Simons</h1>
+        <h2 id="subhead">Creative developer</h2>
+        <a href="#about">ABOUT</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#eductation">EDUCATION</a>
+        <a href="#work">WORK</a>
+        <div id="social-container">
+          <a href="https://www.linkedin.com/in/gary-simons/" aria-label="Like me on LinkedIn" target="_blank">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </div>
+        <a href="https://www.instagram.com/garycs/" aria-label="Follow me on Instagram" target="_blank">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <span class="sr-only">Instagram</span>
+        </a>
+        <a href="#" aria-label="Follow me on Facebook" target="_blank">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <span class="sr-only">Facebook</span>
+        </a>
       </div>
       <div id="scroll-container">
-        <div id="one">
-        </div>
-        <div id="two">
-        </div>
-        <div id="three">
-        </div>
+        <div class="scroll-info-container" id="about"></div>
+        <div class="scroll-info-container" id="experience"></div>
+        <div class="scroll-info-container" id="education"></div>
+        <div class="scroll-info-container" id="work"></div>
       </div>
     </div>
   </div>
-
-
 </body>
+
 </html>
