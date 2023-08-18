@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,100;0,400;0,800;1,100;1,400;1,800&display=swap');
+
 // Use a more-intuitive box-sizing model.
 *, *::before, *::after {
   box-sizing: border-box;
@@ -9,12 +11,14 @@ a {
 // Remove default margin
 * {
   margin: 0;
+  padding: 0;
 }
 /*
 Add accessible line-height
 Improve text rendering
 */
 body {
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
