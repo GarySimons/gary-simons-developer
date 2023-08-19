@@ -172,9 +172,10 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 #scroll-container .scroll-text {
   font-size: 1rem;
+  line-height: 1.3;
   font-weight: 400;
   color: #ffffff;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 #scroll-container .scroll-text .arrow {
   color: #FD7F20;
