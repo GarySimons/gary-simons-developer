@@ -41,7 +41,7 @@ p, h1, h2, h3, h4, h5, h6 {
 #background {
   height: 100vh;
   width: 100vw;
-  background-color: #333333;
+  background-color: #222222;
 }
 
 #main-container {
@@ -55,70 +55,76 @@ p, h1, h2, h3, h4, h5, h6 {
   gap: 2rem;
   overflow: hidden;
 
-  #header {
-    font-size: 5rem;
-    color: #ffffff;
-    margin-bottom: 0;
-    letter-spacing: 0.15rem;
-    line-height: 0.7;
-  }
-
-  #subhead {
-    font-size: 1.5rem;
-    color: #ffffff;
-    margin-bottom: 1rem;
-    font-weight: 100;
-    letter-spacing: 0.15rem;
-  }
-
-  .nav-link {
-    font-size: 0.9rem;
-    letter-spacing: 0.15rem;
-    font-weight: 800;
-    color: #ffffff;
-    margin-bottom: 0.5rem;
-
-    &:hover {
-      opacity: 0.7;
-    }
-  }
-
-  #social-container {
+  #static-container {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+    align-items: flex-start;
+    height: 28rem;
+    width: 100%;
+    flex: 1;
 
-    .social-icon {
-      font-size: 1rem;
+    #static-bird {
+      height: 3rem;
+      width: auto;
+      margin: 0 0 0.5rem -1.2rem;
+    }
+
+    #header {
+      font-size: 5rem;
       color: #ffffff;
-
+      margin-bottom: 0;
+      letter-spacing: 0.15rem;
+      line-height: 0.7;
+    }
+  
+    #subhead {
+      font-size: 1.5rem;
+      color: #ffffff;
+      margin-bottom: 1rem;
+      font-weight: 100;
+      letter-spacing: 0.15rem;
+    }
+  
+    .nav-link {
+      font-size: 0.9rem;
+      letter-spacing: 0.15rem;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+  
       &:hover {
         opacity: 0.7;
       }
     }
-  }
-
-  footer {
-    margin-top: 2rem;
-
-    p {
-      font-size: 0.7rem;
-      font-weight: 400;
-      color: #ffffff;
-      letter-spacing: 0.15rem;
+  
+    #social-container {
+      display: flex;
+      justify-content: flex-start;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+  
+      .social-icon {
+        font-size: 1rem;
+        color: #ffffff;
+  
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  
+    footer {
+      margin-top: 2rem;
+  
+      p {
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: #ffffff;
+        letter-spacing: 0.15rem;
+      }
     }
   }
-}
-
-#static-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 24rem;
-  width: 100%;
-  flex: 1;
 }
 
 #scroll-container {
