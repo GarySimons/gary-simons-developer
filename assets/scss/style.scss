@@ -56,27 +56,38 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 
   #header {
-    font-size: 2rem;
+    font-size: 5rem;
     color: #ffffff;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+    letter-spacing: 0.15rem;
+    line-height: 0.7;
   }
 
   #subhead {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #ffffff;
     margin-bottom: 1rem;
+    font-weight: 100;
+    letter-spacing: 0.15rem;
   }
 
   .nav-link {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.15rem;
+    font-weight: 800;
     color: #ffffff;
     margin-bottom: 0.5rem;
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
 
   #social-container {
     display: flex;
     justify-content: flex-start;
-    gap: 1rem;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
 
     .social-icon {
       font-size: 1rem;
@@ -87,6 +98,17 @@ p, h1, h2, h3, h4, h5, h6 {
       }
     }
   }
+
+  footer {
+    margin-top: 2rem;
+
+    p {
+      font-size: 0.7rem;
+      font-weight: 400;
+      color: #ffffff;
+      letter-spacing: 0.15rem;
+    }
+  }
 }
 
 #static-container {
@@ -94,7 +116,7 @@ p, h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 80vh;
+  height: 24rem;
   width: 100%;
   flex: 1;
 }
@@ -120,6 +142,7 @@ p, h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 0.5rem;
+    letter-spacing: 0.15rem;
   }
 
   .scroll-subheading {
