@@ -130,25 +130,53 @@ p, h1, h2, h3, h4, h5, h6 {
   width: 100%;
   max-width: 40rem;
   margin-bottom: 2rem;
-  padding: 2rem 0rem 2rem 0;
+  padding: 0.2rem 0rem 2rem 0;
   border-top: 1rem #000000 solid;
 }
 #scroll-container .scroll-heading {
   font-size: 1.7rem;
   font-weight: 700;
   color: #ffffff;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+#scroll-container .scroll-heading:hover {
+  color: #FD7F20;
 }
 #scroll-container .scroll-subheading {
   font-size: 1.2rem;
   font-weight: 700;
   color: #ffffff;
+  border-top: 0.2rem #000000 solid;
+  margin: 1.8rem 0 0.15rem 0;
+}
+#scroll-container .scroll-subheading .first {
+  margin: 0 0 0.15rem 0;
+}
+#scroll-container .scroll-info {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #ffffff;
   margin-bottom: 0.5rem;
+}
+#scroll-container .scroll-info.top {
+  margin-bottom: 0;
+}
+#scroll-container .scroll-info.link {
+  color: #FD7F20;
+  cursor: pointer;
+}
+#scroll-container .scroll-info.link:hover {
+  color: #ffffff;
 }
 #scroll-container .scroll-text {
   font-size: 1rem;
   font-weight: 400;
   color: #ffffff;
   margin-bottom: 0.5rem;
+}
+#scroll-container .scroll-text .arrow {
+  color: #FD7F20;
+  margin-right: 0.15rem;
 }/*# sourceMappingURL=style.css.map */
