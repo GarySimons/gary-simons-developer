@@ -131,7 +131,7 @@ p, h1, h2, h3, h4, h5, h6 {
   max-width: 40rem;
   margin-bottom: 2rem;
   padding: 0.2rem 0rem 2rem 0;
-  border-top: 1rem #000000 solid;
+  border-top: 1rem #555555 solid;
 }
 #scroll-container .scroll-heading {
   font-size: 1.7rem;
@@ -177,8 +177,9 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   margin-bottom: 0.25rem;
 }
-#scroll-container .scroll-text .big {
+#scroll-container .scroll-text big {
   font-size: 1.3rem;
+  color: red;
 }
 #scroll-container .scroll-text .arrow {
   color: #FD7F20;
