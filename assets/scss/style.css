@@ -79,7 +79,7 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #FD7F20;
 }
 #main-container #static-container #subhead {
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   color: #ffffff;
   margin-bottom: 1rem;
   font-weight: 100;
@@ -150,6 +150,7 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   border-top: 0.2rem #000000 solid;
   margin: 1.8rem 0 0.15rem 0;
+  letter-spacing: 0.1rem;
 }
 #scroll-container .scroll-subheading .first {
   margin: 0 0 0.15rem 0;
@@ -157,7 +158,7 @@ p, h1, h2, h3, h4, h5, h6 {
 #scroll-container .scroll-info {
   font-size: 0.9rem;
   font-weight: 400;
-  color: #ffffff;
+  color: #888888;
   margin-bottom: 0.5rem;
 }
 #scroll-container .scroll-info.top {
@@ -188,4 +189,43 @@ p, h1, h2, h3, h4, h5, h6 {
 #scroll-container .scroll-text .link {
   color: #FD7F20;
   cursor: pointer;
+}
+#scroll-container .scroll-text .link:hover {
+  color: #ffffff;
+}
+#scroll-container .project-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+#scroll-container .project-container .project-image {
+  height: auto;
+  width: 12rem;
+  min-width: 12rem;
+  border: 0.1rem #ffffff solid;
+}
+#scroll-container .project-container .project-image:hover {
+  border: 0.1rem #FD7F20 solid;
+}
+#scroll-container .project-container .project-text {
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+#scroll-container .project-code-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.75rem 0 0 0;
+}
+#scroll-container .project-code-container .project-code {
+  font-size: 0.75rem;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #FD7F20;
+  letter-spacing: 0.15rem;
 }/*# sourceMappingURL=style.css.map */
