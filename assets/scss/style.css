@@ -282,9 +282,16 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 #scroll-container .project-container {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
+  margin-top: 0.75rem;
+}
+@media screen and (min-width: 480px) {
+  #scroll-container .project-container {
+    flex-direction: row;
+  }
 }
 #scroll-container .project-container .project-image {
   height: auto;
