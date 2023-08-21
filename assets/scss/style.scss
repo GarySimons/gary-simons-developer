@@ -176,7 +176,7 @@ p, h1, h2, h3, h4, h5, h6 {
         color: #ffffff;
 
         @media screen and (min-width:480px) {
-          font-size: 1rem;
+          font-size: 1.2rem;
         }
   
         &:hover {
@@ -185,11 +185,12 @@ p, h1, h2, h3, h4, h5, h6 {
       }
     }
   
-    footer {
-      margin-top: 1rem;
+    #footer-mobile {
+      margin-top: 2rem;
+      display: none;
 
       @media screen and (min-width:480px) {
-        margin-top: 2rem;
+        display: block;
       }
   
       p {
@@ -199,6 +200,22 @@ p, h1, h2, h3, h4, h5, h6 {
         letter-spacing: 0.15rem;
       }
     }
+  }
+}
+
+#footer-desktop {
+  margin-bottom: 1rem;
+  display: block;
+
+  @media screen and (min-width:480px) {
+    display: none;
+  }
+
+  p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0.15rem;
   }
 }
 

@@ -169,21 +169,38 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width: 480px) {
   #main-container #static-container #social-container .social-icon {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 #main-container #static-container #social-container .social-icon:hover {
   color: #FD7F20;
 }
-#main-container #static-container footer {
-  margin-top: 1rem;
+#main-container #static-container #footer-mobile {
+  margin-top: 2rem;
+  display: none;
 }
 @media screen and (min-width: 480px) {
-  #main-container #static-container footer {
-    margin-top: 2rem;
+  #main-container #static-container #footer-mobile {
+    display: block;
   }
 }
-#main-container #static-container footer p {
+#main-container #static-container #footer-mobile p {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0.15rem;
+}
+
+#footer-desktop {
+  margin-bottom: 1rem;
+  display: block;
+}
+@media screen and (min-width: 480px) {
+  #footer-desktop {
+    display: none;
+  }
+}
+#footer-desktop p {
   font-size: 0.7rem;
   font-weight: 400;
   color: #ffffff;
