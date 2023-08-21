@@ -31,6 +31,10 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
+ul {
+  list-style-type: none;
+}
+
 #background {
   height: 100%;
   width: 100vw;
@@ -61,6 +65,9 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 0.8rem;
   font-weight: 800;
   color: #ffffff;
+}
+#nav-mobile .nav-link-mobile .active {
+  color: #FD7F20;
 }
 @media screen and (min-width: 480px) {
   #nav-mobile {
@@ -138,6 +145,10 @@ p, h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   color: #ffffff;
   margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+#main-container #static-container .nav-link.active {
+  color: #FD7F20;
 }
 #main-container #static-container .nav-link:hover {
   color: #FD7F20;
@@ -319,12 +330,17 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 #scroll-container .project-container .project-image {
   height: auto;
-  width: 12rem;
+  width: 100%;
   min-width: 12rem;
   border: 0.1rem #ffffff solid;
 }
 #scroll-container .project-container .project-image:hover {
   border: 0.1rem #FD7F20 solid;
+}
+@media screen and (min-width: 480px) {
+  #scroll-container .project-container .project-image {
+    width: 12rem;
+  }
 }
 #scroll-container .project-container .project-text {
   font-size: 1rem;
