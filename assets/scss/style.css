@@ -80,6 +80,9 @@ ul {
   width: 3em;
   display: block;
 }
+.spacer.top {
+  height: 3rem;
+}
 @media screen and (min-width: 480px) {
   .spacer {
     display: none;
