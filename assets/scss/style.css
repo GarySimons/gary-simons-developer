@@ -168,7 +168,7 @@ ul {
   margin-bottom: 0.5rem;
   text-decoration: none;
 }
-#main-container #static-container .nav-link.active {
+#main-container #static-container .nav-link:active {
   color: #FD7F20;
 }
 #main-container #static-container .nav-link:hover {
