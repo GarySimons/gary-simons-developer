@@ -114,14 +114,32 @@ ul {
     margin-top: 0;
   }
 }
+#main-container #left-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  padding-right: 4rem;
+}
 #main-container #static-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 36rem;
-  width: 100%;
-  flex: 1;
+  height: 26rem;
+  width: auto;
+}
+@media screen and (min-width: 768px) {
+  #main-container #static-container {
+    height: 36rem;
+    width: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #main-container #static-container {
+    height: 36rem;
+    width: 25rem;
+  }
 }
 #main-container #static-container #static-bird {
   height: 8rem;
@@ -244,6 +262,7 @@ ul {
 
 #scroll-container {
   height: 80vh;
+  max-height: 60rem;
   width: 100%;
   flex: 1.5;
   overflow: auto;
