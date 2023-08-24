@@ -353,7 +353,7 @@ ul {
 #scroll-container .project-container .project-image {
   height: auto;
   width: 100%;
-  min-width: 12rem;
+  min-width: 14rem;
   border: 0.1rem #ffffff solid;
 }
 #scroll-container .project-container .project-image:hover {
@@ -361,7 +361,7 @@ ul {
 }
 @media screen and (min-width: 480px) {
   #scroll-container .project-container .project-image {
-    width: 12rem;
+    width: 14rem;
   }
 }
 #scroll-container .project-container .project-text {
@@ -376,6 +376,12 @@ ul {
   #scroll-container .project-container .project-text {
     padding-right: 5rem;
   }
+}
+#scroll-container .project-container .project-text a {
+  color: #FD7F20;
+}
+#scroll-container .project-container .project-text a:hover {
+  color: #ffffff;
 }
 #scroll-container .project-code-container {
   display: flex;
