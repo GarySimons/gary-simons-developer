@@ -115,7 +115,7 @@ ul {
   }
 }
 #main-container #left-container {
-  display: flex;
+  display: none;
   justify-content: flex-end;
   align-items: center;
   flex: 1;
@@ -124,6 +124,7 @@ ul {
 @media screen and (min-width: 1024px) {
   #main-container #left-container {
     padding-right: 4rem;
+    display: flex;
   }
 }
 #main-container #static-container {
