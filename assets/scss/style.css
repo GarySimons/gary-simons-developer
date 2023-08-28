@@ -121,6 +121,12 @@ ul {
   flex: 1;
   padding-right: 0.5rem;
 }
+@media screen and (min-width: 768px) {
+  #main-container #left-container {
+    padding-right: 1rem;
+    display: flex;
+  }
+}
 @media screen and (min-width: 1024px) {
   #main-container #left-container {
     padding-right: 4rem;
@@ -247,6 +253,95 @@ ul {
   letter-spacing: 0.05rem;
 }
 
+#static-container-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 26rem;
+  width: flex;
+}
+@media screen and (min-width: 768px) {
+  #static-container-mobile {
+    height: 36rem;
+    width: auto;
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #static-container-mobile {
+    height: 36rem;
+    width: 25rem;
+    display: none;
+  }
+}
+#static-container-mobile #spacer-mobile-top {
+  height: 4em;
+  width: 3em;
+  display: block;
+}
+#static-container-mobile #static-bird-mobile {
+  height: 8rem;
+  width: auto;
+  margin: 0 0 0.5rem -1rem;
+}
+#static-container-mobile #header-mobile {
+  font-size: 5rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  letter-spacing: 0.05rem;
+  line-height: 0.7;
+}
+#static-container-mobile #header-mobile span {
+  color: #ffffff;
+}
+#static-container-mobile #header-mobile span:hover {
+  color: #FD7F20;
+}
+#static-container-mobile #header-mobile:hover {
+  color: #FD7F20;
+}
+#static-container-mobile #subhead-mobile {
+  font-size: 1.45rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-weight: 100;
+  letter-spacing: 0.05rem;
+}
+#static-container-mobile .nav-link-email {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  font-weight: 800;
+  color: #FD7F20;
+  margin: 0;
+}
+@media screen and (min-width: 480px) {
+  #static-container-mobile .nav-link-email {
+    margin: 1rem 0;
+  }
+}
+#static-container-mobile .nav-link-email:hover {
+  color: #ffffff;
+}
+#static-container-mobile #social-container-mobile {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin-top: 1.25rem;
+}
+#static-container-mobile #social-container-mobile .social-icon {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+@media screen and (min-width: 480px) {
+  #static-container-mobile #social-container-mobile .social-icon {
+    font-size: 1.2rem;
+  }
+}
+#static-container-mobile #social-container-mobile .social-icon:hover {
+  color: #FD7F20;
+}
+
 #footer-mobile {
   margin: 4rem 0 1rem 0;
   display: flex;
@@ -273,7 +368,7 @@ ul {
   flex: 1.5;
   overflow: auto;
   scroll-behavior: smooth;
-  padding: 0 1.5rem;
+  padding: 1.5rem;
 }
 @media screen and (min-width: 480px) {
   #scroll-container {
